@@ -1,3 +1,27 @@
+@-webkit-keyframes color {
+  0% {
+    color: #4f5051;
+  }
+  50% {
+    color: #005f73;
+  }
+  100% {
+    color: #4f5051;
+  }
+}
+
+@keyframes color {
+  0% {
+    color: #4f5051;
+  }
+  50% {
+    color: #005f73;
+  }
+  100% {
+    color: #4f5051;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -5,13 +29,69 @@
   padding: 0;
 }
 
-.navbar-nav {
+html {
+  font-size: 62.5%;
+}
+
+.introduction {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/Tlo glowne.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.introduction .navbar-nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 1rem;
 }
 
-.navbar-nav .nav-link {
-  margin: 0 10px;
+.introduction .navbar-nav .nav-link {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 0 4rem;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.introduction .navbar-nav .navbar-brand .logoPC {
+  height: 8rem;
+}
+
+.introduction .box {
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.introduction .box .title h1 {
+  text-align: center;
+  font-size: 6rem;
+  color: #4f5051;
+}
+
+.introduction .box .title h1 .group-1 {
+  -webkit-animation: color 6s infinite;
+          animation: color 6s infinite;
+}
+
+.introduction .box .title h1 .group-2 {
+  -webkit-animation: color 6s infinite;
+          animation: color 6s infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 /*# sourceMappingURL=main.css.map */

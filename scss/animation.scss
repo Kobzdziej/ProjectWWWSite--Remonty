@@ -1,0 +1,13 @@
+@keyframes color {
+    0%{
+        color: $text;
+    }
+
+    50%{
+        color: $additives;
+    }
+
+    100%{
+        color: $text;
+    }
+}
