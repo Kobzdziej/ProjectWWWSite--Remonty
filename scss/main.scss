@@ -37,7 +37,7 @@ html{
     }
 
     .box{
-        height: 50%;
+        height: 40%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -57,6 +57,35 @@ html{
                     animation-delay: 3s;
                 }
             }
+        }
+    }
+    .company-name{
+        display: flex;
+        justify-content: center;
+        
+        height: 25%;
+       
+        .company-name-box{
+            text-align: center;
+            h2{
+                margin: 2rem 0;
+                font-size: 4rem;
+            }
+            img{
+                height: 0.5rem;
+            }
+        }
+    }
+    .arrow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            height: 3rem;
+        }
+        .arrow_aniamtion{
+            animation: bounce 3s infinite;
         }
     }
 }
