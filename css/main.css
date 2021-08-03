@@ -47,6 +47,23 @@ html {
   background-repeat: no-repeat;
 }
 
+.introduction .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.introduction .navbar .logoMobile {
+  height: 5rem;
+  margin: auto;
+}
+
 .introduction .navbar-nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;

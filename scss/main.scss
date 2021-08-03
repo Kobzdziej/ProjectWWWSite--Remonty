@@ -16,11 +16,22 @@ html{
     background-image: url("../img/Tlo glowne.png");
     background-size: 100% 100%;
     background-repeat: no-repeat ;
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .logoMobile{
+            height: 5rem;
+            margin: auto;
+        }
+    }
     
     .navbar-nav{
         justify-content:center;
         margin-top: 1rem;
         // background: none;
+
+        
         
         .nav-link{
             align-self: center;
@@ -33,6 +44,7 @@ html{
             .logoPC{
                 height: 8rem;
             }
+            
         }
     }
 
