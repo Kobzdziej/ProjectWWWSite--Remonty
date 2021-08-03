@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAeA,UAAU,CAAV,MAAU;EACN,EAAE,EAAE,GAAG,EAAE,GAAG,EAAE,GAAG,EAAE,IAAI;IAAE,SAAS,EAAE,aAAa;;EAClD,GAAG;IAAE,SAAS,EAAE,iBAAiB;;EACjC,GAAG;IAAE,SAAS,EAAE,iBAAiB",
+    "mappings": "AACA,UAAU,CAAV,KAAU;EACN,EAAE;IACE,KAAK,ECCN,OAAO;;EDEV,GAAG;IACC,KAAK,ECJF,OAAO;;EDOd,IAAI;IACA,KAAK,ECPN,OAAO;;;;ADWd,UAAU,CAAV,MAAU;EACN,EAAE,EAAE,GAAG,EAAE,GAAG,EAAE,GAAG,EAAE,IAAI;IAAE,SAAS,EAAE,aAAa;;EAClD,GAAG;IAAE,SAAS,EAAE,iBAAiB;;EACjC,GAAG;IAAE,SAAS,EAAE,iBAAiB",
     "sources": [
-        "../scss/animation.scss"
+        "../scss/animation.scss",
+        "../scss/_colors.scss"
     ],
     "names": [],
     "file": "animation.css"

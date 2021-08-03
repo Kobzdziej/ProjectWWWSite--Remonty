@@ -1,3 +1,27 @@
+@-webkit-keyframes color {
+  0% {
+    color: #4f5051;
+  }
+  50% {
+    color: #005f73;
+  }
+  100% {
+    color: #4f5051;
+  }
+}
+
+@keyframes color {
+  0% {
+    color: #4f5051;
+  }
+  50% {
+    color: #005f73;
+  }
+  100% {
+    color: #4f5051;
+  }
+}
+
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -webkit-transform: translateY(0);
@@ -12,6 +36,7 @@
             transform: translateY(-15px);
   }
 }
+
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -webkit-transform: translateY(0);
