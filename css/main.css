@@ -52,6 +52,26 @@
   }
 }
 
+@font-face {
+  font-family: biysk;
+  src: url("../fonts/Biysk.ttf");
+}
+
+@font-face {
+  font-family: healine;
+  src: url("../fonts/theboldfont.ttf");
+}
+
+@font-face {
+  font-family: Lment;
+  src: url("../fonts/Lment-v02.ttf");
+}
+
+@font-face {
+  font-family: roboto;
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -66,7 +86,7 @@ html {
 .introduction {
   height: 100vh;
   width: 100%;
-  background-image: url("../img/Tlo glowne.png");
+  background-image: url("../img/Tlo glowne.png ");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -96,12 +116,14 @@ html {
 }
 
 .introduction .navbar-nav .nav-link {
+  font-family: biysk;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   margin: 0 4rem;
   padding: 1rem 2rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 500;
   color: white;
 }
 
@@ -125,6 +147,8 @@ html {
 }
 
 .introduction .box .title h1 {
+  font-family: healine;
+  padding-top: 8rem;
   text-align: center;
   font-size: 6rem;
   color: #4f5051;
@@ -157,15 +181,18 @@ html {
 }
 
 .introduction .company-name .company-name-box h2 {
-  margin: 2rem 0;
-  font-size: 4rem;
+  margin-top: 3.5rem;
+  font-family: Lment;
+  font-size: 5.5rem;
+  color: #4f5051;
 }
 
 .introduction .company-name .company-name-box img {
-  height: 0.5rem;
+  height: 0.75rem;
 }
 
 .introduction .arrow {
+  margin: 8rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
