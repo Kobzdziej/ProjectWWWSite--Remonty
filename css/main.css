@@ -28,12 +28,12 @@
             transform: translateY(0);
   }
   40% {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
-  }
-  60% {
     -webkit-transform: translateY(-15px);
             transform: translateY(-15px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
   }
 }
 
@@ -43,12 +43,12 @@
             transform: translateY(0);
   }
   40% {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
-  }
-  60% {
     -webkit-transform: translateY(-15px);
             transform: translateY(-15px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
   }
 }
 
@@ -104,8 +104,7 @@ html {
 }
 
 .introduction .navbar .logoMobile {
-  height: 5rem;
-  margin: auto;
+  height: 3rem;
 }
 
 .introduction .navbar-nav {
@@ -148,9 +147,9 @@ html {
 
 .introduction .box .title h1 {
   font-family: healine;
-  padding-top: 8rem;
+  padding-top: 2rem;
   text-align: center;
-  font-size: 6rem;
+  font-size: 3rem;
   color: #4f5051;
 }
 
@@ -188,11 +187,11 @@ html {
 }
 
 .introduction .company-name .company-name-box img {
-  height: 0.75rem;
+  height: 0.5rem;
 }
 
 .introduction .arrow {
-  margin: 8rem 0;
+  margin: 10rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,7 +204,7 @@ html {
 }
 
 .introduction .arrow img {
-  height: 3rem;
+  height: 1.5rem;
 }
 
 .introduction .arrow .arrow_aniamtion {
