@@ -211,4 +211,95 @@ html {
   -webkit-animation: bounce 3s infinite;
           animation: bounce 3s infinite;
 }
+
+.aboutUs {
+  height: 120vh;
+  width: 100%;
+  background-image: url("../img/Tlo o nas.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.aboutUs img {
+  height: 0.5rem;
+  margin: 1rem 0;
+}
+
+.aboutUs .text-aboutUS {
+  height: 100%;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.aboutUs .text-aboutUS h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.aboutUs .text-aboutUS p {
+  font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+  .aboutUs {
+    height: 70vh;
+  }
+  .aboutUs .text-aboutUS h2 {
+    font-size: 4rem;
+  }
+  .aboutUs .text-aboutUS p {
+    font-size: 1.20rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .aboutUs {
+    height: 60vh;
+  }
+  .aboutUs .text-aboutUS h2 {
+    font-size: 4rem;
+  }
+  .aboutUs .text-aboutUS p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .aboutUs {
+    height: 60vh;
+  }
+  .aboutUs .text-aboutUS h2 {
+    font-size: 5rem;
+  }
+  .aboutUs .text-aboutUS p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .aboutUs {
+    height: 50vh;
+  }
+  .aboutUs .text-aboutUS h2 {
+    font-size: 5rem;
+  }
+  .aboutUs .text-aboutUS p {
+    font-size: 1.5rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
