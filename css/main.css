@@ -149,7 +149,7 @@ html {
   font-family: healine;
   padding-top: 2rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 5.5rem;
   color: #4f5051;
 }
 
@@ -182,16 +182,16 @@ html {
 .introduction .company-name .company-name-box h2 {
   margin-top: 3.5rem;
   font-family: Lment;
-  font-size: 5.5rem;
+  font-size: 5rem;
   color: #4f5051;
 }
 
 .introduction .company-name .company-name-box img {
-  height: 0.5rem;
+  height: 0.75rem;
 }
 
 .introduction .arrow {
-  margin: 10rem 0;
+  margin: 8rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,7 +204,7 @@ html {
 }
 
 .introduction .arrow img {
-  height: 1.5rem;
+  height: 3.5rem;
 }
 
 .introduction .arrow .arrow_aniamtion {
@@ -212,28 +212,31 @@ html {
           animation: bounce 3s infinite;
 }
 
-.mail, .fb {
-  width: 50px;
-  height: 50px;
+.mail,
+.fb {
+  width: 800px;
+  height: 200px;
   position: fixed;
   right: 10px;
 }
 
 .mail {
-  bottom: 120px;
+  margin-bottom: 20px;
   background-image: url("../img/Mail.png");
-  background-size: 100% 100%;
+  background-size: 100% 80%;
   background-repeat: no-repeat;
 }
 
 .fb {
-  bottom: 50px;
+  bottom: 20px;
   background-image: url("../img/FB.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .galery {
+  -webkit-box-shadow: inset 10px -45px 40px -30px #014d5d;
+          box-shadow: inset 10px -45px 40px -30px #014d5d;
   background-color: #005f73;
 }
 
@@ -255,11 +258,19 @@ html {
 
 .galery .galery-elements .heading {
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: whitesmoke;
+}
+
+.galery .galery-elements .heading h2 {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
 }
 
 .galery .galery-elements .heading img {
   height: 0.5rem;
-  margin: 1rem 0;
+  margin: 3rem 0 1rem 0;
 }
 
 .galery .galery-elements .mainElement {
@@ -270,18 +281,31 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: 4rem 0;
+  margin: 1rem 0;
 }
 
 .galery .galery-elements .mainElement img {
-  height: 20rem;
+  height: 45rem;
+}
+
+.galery .galery-elements .mainElement .order-1 {
+  height: 40rem;
+}
+
+.galery .galery-elements .mainElement .order-2 {
+  height: 35rem;
+  margin-bottom: 4.5rem;
 }
 
 .galery .galery-elements .mainElement .text {
+  font-family: roboto;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
   width: 350px;
   height: 150px;
   background-image: url("../img/Ramka do realizacji (opis zdjec).png");
-  background-size: 100% 100%;
+  background-size: 80% 80%;
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -294,8 +318,8 @@ html {
           align-items: center;
   -ms-flex-item-align: center;
       align-self: center;
-  margin: 0 6rem;
-  padding: 1rem 2rem;
+  margin: 6rem;
+  padding: 0rem 10rem 2rem 3rem;
 }
 
 .aboutUs {
@@ -309,12 +333,12 @@ html {
 
 .aboutUs img {
   height: 0.5rem;
-  margin: 1rem 0;
+  margin: 2rem 0 0.5rem 0;
 }
 
 .aboutUs .text-aboutUS {
   height: 100%;
-  width: 100%;
+  width: 60%;
   padding: 1rem 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -334,33 +358,36 @@ html {
 
 .aboutUs .text-aboutUS h2 {
   margin-bottom: 2rem;
-  font-size: 2rem;
+  font-size: 3.5rem;
 }
 
 .aboutUs .text-aboutUS p {
-  font-size: 1rem;
+  margin-top: 3rem;
+  font-family: roboto;
+  font-size: 2rem;
 }
 
 @media (min-width: 576px) {
   .aboutUs {
-    height: 70vh;
+    height: 80vh;
   }
   .aboutUs .text-aboutUS h2 {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
   .aboutUs .text-aboutUS p {
-    font-size: 1.20rem;
+    font-size: 1.5rem;
   }
 }
 
 @media (min-width: 768px) {
-  .mail, .fb {
-    width: 100px;
-    height: 100px;
-    right: 20px;
+  .mail,
+  .fb {
+    width: 80px;
+    height: 80px;
+    right: 40px;
   }
   .mail {
-    bottom: 175px;
+    bottom: 80px;
   }
   .aboutUs {
     height: 60vh;
