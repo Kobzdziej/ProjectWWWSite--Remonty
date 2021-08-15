@@ -212,6 +212,28 @@ html {
           animation: bounce 3s infinite;
 }
 
+.mail, .fb {
+  width: 125px;
+  height: 125px;
+  position: fixed;
+}
+
+.mail {
+  right: 50px;
+  bottom: 200px;
+  background-image: url("../img/Mail.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.fb {
+  right: 50px;
+  bottom: 50px;
+  background-image: url("../img/FB.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
 .galery {
   background-color: #005f73;
 }
@@ -241,11 +263,6 @@ html {
   margin: 1rem 0;
 }
 
-.galery .galery-elements .reverse {
-  -ms-flex-line-pack: end;
-      align-content: flex-end;
-}
-
 .galery .galery-elements .mainElement {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -258,7 +275,7 @@ html {
 }
 
 .galery .galery-elements .mainElement img {
-  height: 40rem;
+  height: 20rem;
 }
 
 .galery .galery-elements .mainElement .text {
@@ -279,6 +296,7 @@ html {
   -ms-flex-item-align: center;
       align-self: center;
   margin: 0 6rem;
+  padding: 1rem 2rem;
 }
 
 .aboutUs {
@@ -345,6 +363,12 @@ html {
   }
   .aboutUs .text-aboutUS p {
     font-size: 1.25rem;
+  }
+  .galery .galery-element {
+    background-color: #fff !important;
+  }
+  .galery .galery-element .mainElement img {
+    height: 30rem;
   }
 }
 
