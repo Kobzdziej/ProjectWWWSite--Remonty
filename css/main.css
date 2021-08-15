@@ -214,14 +214,14 @@ html {
 
 .mail,
 .fb {
-  width: 800px;
+  width: 200px;
   height: 200px;
   position: fixed;
   right: 10px;
 }
 
 .mail {
-  margin-bottom: 20px;
+  bottom: 50px;
   background-image: url("../img/Mail.png");
   background-size: 100% 80%;
   background-repeat: no-repeat;
